@@ -210,26 +210,25 @@ export default function Home() {
               <div className="w-full h-full min-h-[500px]">
                 <iframe
                   className="h-[80%] w-full mb-4"
-                  src="https://www.google.com/maps/embed/v1/place?q=oxiservicios&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                  src={`https://www.google.com/maps/embed/v1/place?q=Ponce+de+León+Oe+8-103+y+Javier+Lizarazu&key=${process.env.NEXT_PUBLIC_GOOGLE_API_KEY}`}
                   allowFullScreen
                 ></iframe>
                 <p>
-                <span className="font-bold">Dirección:</span> Alemania 29-77 y
-                Eloy Alfaro - Quito - Ecuador
-              </p>
+                  <span className="font-bold">Dirección:</span> Ponce de León Oe
+                  8-103 y Javier Lizarazu
+                </p>
 
-              <p>
-                <span className="font-bold">Teléfono:</span> +593 2 3530528
-              </p>
-              <p>
-                <span className="font-bold">Celular:</span> 094707509
-              </p>
-              <p>
-                <span className="font-bold">Email:</span>{" "}
-                info@oxiservicios.com.ec
-              </p>
+                <p>
+                  <span className="font-bold">Teléfono:</span> +593 2 3530528
+                </p>
+                <p>
+                  <span className="font-bold">Celular:</span> 094707509
+                </p>
+                <p>
+                  <span className="font-bold">Email:</span>{" "}
+                  info@oxiservicios.com.ec
+                </p>
               </div>
-              
             </div>
             <div>
               <h3 className="font-bold text-2xl mb-4">Contáctanos</h3>
